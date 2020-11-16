@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+  background: #ffffff;
+}
+
+
+
+/***** resize the brand name to 3 times larger *****/
+.navbar-brand{
+  Font-size: 3em;
+}
+/***** created a new container that takes the whole width of the device *****/
+.container-fluid-custom{
+  width: 100%;
+  background-color: #ff5500;
+}
+
+/***** hover effects on nav items *****/
+
+ul li:hover{
+  background: #ff8138;
+}
+
+.custom-nav a{
+  color: white;
+}
+/***** set the nav icon's color to white *****/
+.custom-color{
+ color: white;
+ }
+ /***** styling the main contents *****/
+ .content{
+  background: #ffffff;
+  border:1px solid #b34100 ;
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 0px 5px 0px #000000; 
+   box-shadow: 0px 0px 10px 0px #000000;
+   margin: 15px 0;
+   color: black;
+ }
+ /***** styling the #top links ******/
+ #toplink{
+   color: white;
+   padding: 10px 20px;
+   background: #ff5500;
+   border-radius: 5px;
+   text-decoration: none;
+ } 
+ /***** styling the titles *****/
+ .title{
+   float: right;
+   background: #ff5500;
+   padding: 10px 20px;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .content p{
+  clear: both;
+  text-align: justify;
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+ }
+ /***** to put indentions on the p tag *****/
+ .p-indent{
+     margin-left: 20px;
+ }
+ /***** styling the 'our menu' text *****/
+ #main-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #ff5500;
+   margin: 20px 0;
+   padding: 10px 0px;
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 0px 5px 0px #000000; 
+   box-shadow: 0px 0px 10px 0px #000000;
+ }
